@@ -18,6 +18,7 @@ html {
 }
 
 img {
+  display: block;
   width: 100%;
   float: left;
 }
@@ -40,14 +41,17 @@ body {
     display: inline-block;
     width: 50%;
   }
+
   img:nth-child(3) {
     display: inline-block;
     width: 50%;
   }
+
   img:nth-child(4) {
     display: inline-block;
     width: 50%;
   }
+
   img:nth-child(5) {
     display: inline-block;
     width: 50%;
@@ -60,17 +64,20 @@ body {
   img:nth-child(5) {
     display: none;
   }
+
   img:nth-child(2) {
     display: inline-block;
-    width: 33.3333%
+    width: 33.3333%;
   }
+
   img:nth-child(3) {
     display: inline-block;
-    width: 33.3333%
+    width: 33.3333%;
   }
+
   img:nth-child(4) {
     display: inline-block;
-    width: 33.3333%
+    width: 33.3333%;
   }
 
 }
@@ -78,13 +85,15 @@ body {
 @media only screen and (min-width: 60em) {
 
   img:first-child {
-    display:inline-block;
+    display: inline-block;
     width: 66.6666%;
   }
+
   img:nth-child(2) {
     display: inline-block;
-    width: 33.3333%
+    width: 33.3333%;
   }
+
   img:nth-child(5) {
     display: inline-block;
     width: 33.3333%;
